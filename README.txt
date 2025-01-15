@@ -9,7 +9,6 @@ Ağlama Günlüğü - Nasıl Kullanılır?
    - Şiddet seviyesini seçebilirsin (hafif, orta, şiddetli)
    - Sebepleri kaydedebilirsin
    - Grafikleri görebilirsin
-   - PDF olarak indirebilirsin
 
 3. Dosyalar:
    - index.html: Ana uygulama
