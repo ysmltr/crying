@@ -15,11 +15,6 @@ Ağlama Günlüğü - Nasıl Kullanılır?
    - index.html: Ana uygulama
    - styles.css: Görünüm ayarları
    - script.js: Uygulama kodları
-   - reasons.js: Sebepler için kodlar
 
-4. PDF İndirme:
-   - "📄 PDF'e Kaydet" butonuna tıkla
-   - PDF otomatik olarak indirilecek
-   - İndirilen PDF'te tüm kayıtların ve grafiklerin olacak
 
 Not: Tüm veriler senin bilgisayarında saklanır, internet bağlantısı gerekmez!
