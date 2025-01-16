@@ -1,8 +1,8 @@
 Ağlama Günlüğü - Nasıl Kullanılır?
 
 1. Başlatmak için:
-   - Bu klasördeki tüm dosyaları bilgisayarına kopyala
-   - index.html dosyasını çift tıklayarak aç (Chrome tarayıcısı önerilir)
+   - Bu repodaki tüm dosyaları bilgisayarına indir
+   - index.html dosyasını çift tıklayarak aç
 
 2. Özellikler:
    - Ağlama kayıtlarını tutabilirsin
@@ -15,5 +15,3 @@ Ağlama Günlüğü - Nasıl Kullanılır?
    - styles.css: Görünüm ayarları
    - script.js: Uygulama kodları
 
-
-Not: Tüm veriler senin bilgisayarında saklanır, internet bağlantısı gerekmez!
