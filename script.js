@@ -28,6 +28,16 @@ function updateCharts() {
         'siddetli': cryingData.filter(d => d.intensity === 'siddetli').length
     };
 
+    // Toplam kayıt sayısını hesapla
+    const total = Object.values(intensityCounts).reduce((a, b) => a + b, 0);
+
+    // Yüzdeleri hesapla
+    const percentages = {
+        'hafif': total > 0 ? Math.round((intensityCounts.hafif / total) * 100) : 0,
+        'orta': total > 0 ? Math.round((intensityCounts.orta / total) * 100) : 0,
+        'siddetli': total > 0 ? Math.round((intensityCounts.siddetli / total) * 100) : 0
+    };
+
     // Pasta grafik
     const intensityCtx = document.getElementById('intensityChart').getContext('2d');
     if (intensityChart) {
@@ -36,7 +46,11 @@ function updateCharts() {
     intensityChart = new Chart(intensityCtx, {
         type: 'pie',
         data: {
-            labels: ['Hafif', 'Orta', 'Şiddetli'],
+            labels: [
+                `Hafif (%${percentages.hafif})`,
+                `Orta (%${percentages.orta})`,
+                `Şiddetli (%${percentages.siddetli})`
+            ],
             datasets: [{
                 data: Object.values(intensityCounts),
                 backgroundColor: [
